@@ -8,7 +8,7 @@ ApplicationWindow {
     width: 640
     height: 480
     visible: true
-    title: qsTr("Hello World")
+    title: qsTr("Joypad example")
 
     Joypad{
         x:50
@@ -18,9 +18,9 @@ ApplicationWindow {
     }
 
     Joypad{
-        x:160
+        x:250
         y:50
-        width: 100
-        height: 100
+        width: 150
+        height: 150
     }
 }
